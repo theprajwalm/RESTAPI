@@ -69,7 +69,7 @@ Delete Employee
 
 Database
 
-This API uses an H2 in-memory database for quick setup. You can view the database using the H2 console at http://localhost:8080/h2-console.
+This API uses an MySQL database for quick setup. You can view the database using the SQL console at http://localhost:8080.
 Application Properties
 
 You can configure the database in src/main/resources/application.properties:
