@@ -38,7 +38,10 @@ public class EmpolyeeRestController {
     }
 
     //Updating an existing employee
-    @PutMapping("/emplotees")
+    @PutMapping("/employees")
+    public void update(@RequestBody Employee employee) {
+        employeeService.save(employee);
+    }
 
     //deleting employee
     @DeleteMapping("/employees/{id}")
