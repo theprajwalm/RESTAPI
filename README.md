@@ -20,7 +20,7 @@ Getting Started
 
 bash
 
-git clone https://github.com/theprajwalm/RESTAPI.git
+git clone https://github.com/theprajwalm/employeeManagementAPI.git
 
 2. Build the Project
 
